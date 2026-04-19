@@ -1,6 +1,9 @@
 msgid "AdGuard Home"
 msgstr "净网管家"
 
+msgid "Base Setting"
+msgstr "基础设置"
+
 msgid "Log"
 msgstr "日志"
 
