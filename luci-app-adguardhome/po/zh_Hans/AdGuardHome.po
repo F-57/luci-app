@@ -1,4 +1,8 @@
+msgid "AdGuard Home"
+msgstr "净网管家"
 
+msgid "Base Setting"
+msgstr "基础设置"
 
 msgid "Log"
 msgstr "日志"
@@ -16,7 +20,7 @@ msgid "Manual Config"
 msgstr "手动设置"
 
 msgid "Free and open source, powerful network-wide ads & trackers blocking DNS server."
-msgstr "全网络广告和跟踪程序拦截DNS服务器，默认账号和密码均为：admin"
+msgstr "全网络广告和跟踪程序拦截DNS服务器，默认账号和密码为：root/cw010203"
 
 msgid "RUNNING"
 msgstr "运行中"
@@ -296,6 +300,3 @@ msgstr "内核设置"
 
 msgid "will set to name gfwlist"
 msgstr "将设置为gfwlist名称"
-
-msgid ""
-msgstr ""
