@@ -1,4 +1,7 @@
 #/cgi-bin/luci/admin/services/AdGuardHome
+msgid "AdGuard Home"
+msgstr "净网管家"
+
 msgid "Base Setting"
 msgstr "基础设置"
 
