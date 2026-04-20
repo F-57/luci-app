@@ -300,3 +300,6 @@ msgstr "内核设置"
 
 msgid "will set to name gfwlist"
 msgstr "将设置为gfwlist名称"
+
+msgid "Open Web Interface"
+msgstr "打开网络界面"
