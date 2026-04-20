@@ -27,11 +27,15 @@ dns:
   ratelimit_whitelist: []
   refuse_any: false
   upstream_dns:
-    - 223.5.5.5
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.twnic.tw/dns-query
+    - https://cloudflare-dns.com/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
-    - 119.29.29.29
-    - 223.5.5.5
+    - 202.96.134.133
+    - 202.96.128.166
+    - 240e:1f:1::1
   all_servers: false
   fastest_addr: false
   fastest_timeout: 1s
@@ -45,8 +49,8 @@ dns:
     - 127.0.0.0/8
     - ::1/128
   cache_size: 4194304
-  cache_ttl_min: 0
-  cache_ttl_max: 0
+  cache_ttl_min: 600
+  cache_ttl_max: 3600
   cache_optimistic: true
   bogus_nxdomain: []
   aaaa_disabled: false
@@ -101,13 +105,9 @@ filters:
     name: anti-AD命中率最高列表
     id: 139789221
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
-    name: AdGuard DNS filter
-    id: 139789332
-  - enabled: false
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
-    name: AdAway Default Blocklist
-    id: 149789121
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+    name: 秋风广告规则
+    id: 1776720229
 whitelist_filters: []
 user_rules:
 
