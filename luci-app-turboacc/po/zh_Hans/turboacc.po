@@ -163,7 +163,7 @@ msgstr "用于 路由/NAT 的分载引擎。"
 
 #: applications/luci-app-turboacc/root/usr/share/luci/menu.d/luci-app-turboacc.json:3
 msgid "TurboACC"
-msgstr "Turbo ACC 网络加速"
+msgstr "网络加速"
 
 #: applications/luci-app-turboacc/htdocs/luci-static/resources/view/turboacc.js:73
 msgid "TurboACC settings"
